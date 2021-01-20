@@ -398,7 +398,7 @@ const HeroDos = () => {
           <main className="mt-10 mx-auto max-w-7xl px-4 mb-4 sm:pb-0 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-gray-500 font-medium text-lg lg:text-xl pb-2 lg:pb-4">Panamá Payroll Management</h1>
-              <h2 className="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+              <h2 className="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl pr-3 sm:pr-0">
                 <span className="block sm:inline">
                   Soluciones que hacen crecer su{" "}
                 </span>
