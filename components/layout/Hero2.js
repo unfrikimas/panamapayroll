@@ -40,7 +40,7 @@ const HeroDos = () => {
                   <div className="-mr-2 flex items-center md:hidden">
                     <button
                       type="button"
-                      className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                      className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primario"
                       id="main-menu"
                       aria-haspopup="true"
                       onClick={() => setMenuMobile(!menuMobile)}
@@ -73,7 +73,6 @@ const HeroDos = () => {
                     type="button"
                     className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                     onClick={() => setMenuDropDown(!menuDropDown)}
-                    onBlur={() => setMenuDropDown(false)}
                   >
                     <span>Servicios</span>
                     {/* Item active: "text-gray-600", Item inactive: "text-gray-400" */}
@@ -290,7 +289,7 @@ const HeroDos = () => {
           <div 
             ref={refm}
             className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-            <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+            <div className="rounded-lg shadow-lg bg-white ring-1 ring-primario ring-opacity-8 overflow-hidden">
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
                   <img
@@ -300,29 +299,31 @@ const HeroDos = () => {
                   />
                 </div>
                 <div className="-mr-2">
-                  <button
-                    type="button"
-                    className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-                    onClick={() => setMenuMobile(!menuMobile)}
-                    onBlur={() => setMenuMobile(false)}
-                  >
-                    <span className="sr-only">Close main menu</span>
-                    <svg
-                      className="h-8 w-auto"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
+                  { menuMobile && (
+                    <button
+                      type="button"
+                      className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primario"
+                      onClick={() => setMenuMobile(!menuMobile)}
+                      onBlur={() => setMenuMobile(false)}
                     >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M6 18L18 6M6 6l12 12"
-                      />
-                    </svg>
-                  </button>
+                      <span className="sr-only">Close main menu</span>
+                      <svg
+                        className="h-8 w-auto"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18L18 6M6 6l12 12"
+                        />
+                      </svg>
+                    </button>
+                  )}
                 </div>
               </div>
 
@@ -391,11 +392,11 @@ const HeroDos = () => {
           )}
           </Transition>
 
-          <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+          <main className="mt-10 mx-auto max-w-7xl px-4 mb-4 sm:pb-0 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-gray-500 font-medium text-lg lg:text-xl pb-2 lg:pb-4">Panamá Payroll Management</h1>
               <h2 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">
+                <span className="block sm:inline">
                   Soluciones que hacen crecer su{" "}
                 </span>
                 <span className="block text-primario xl:inline">negocio</span>

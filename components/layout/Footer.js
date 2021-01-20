@@ -5,7 +5,7 @@ const Footer = () => {
     <footer class="text-gray-600 body-font pt-16">
 
       <div class="bg-gray-100 py-8">
-        <div class="flex max-w-7xl mx-auto px-4 sm:px-6  text-gray-800 flex-wrap lg:justify-between">
+        <div class="w-full flex lg:max-w-7xl mx-auto px-4 sm:px-6  text-gray-800 flex-wrap md:justify-between">
           <div class="p-5 lg:p-0">
             <img
               className="h-12 w-auto sm:h-12"
@@ -76,7 +76,7 @@ const Footer = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-8 h-8"
+                class="w-6 h-6"
                 viewBox="0 0 24 24"
               >
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -88,7 +88,7 @@ const Footer = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-8 h-8"
+                class="w-6 h-6"
                 viewBox="0 0 24 24"
               >
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
@@ -101,7 +101,7 @@ const Footer = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-8 h-8"
+                class="w-6 h-6"
                 viewBox="0 0 24 24"
               >
                 <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
@@ -115,7 +115,7 @@ const Footer = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="0"
-                class="w-8 h-8"
+                class="w-6 h-6"
                 viewBox="0 0 24 24"
               >
                 <path
