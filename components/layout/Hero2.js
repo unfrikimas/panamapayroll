@@ -399,10 +399,10 @@ const HeroDos = () => {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-gray-500 font-medium text-lg lg:text-xl pb-2 lg:pb-4">Panamá Payroll Management</h1>
               <h2 className="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl pr-3 sm:pr-0">
-                <span className="block sm:inline">
+                {/* <span className="block sm:inline"> */}
                   Soluciones que hacen crecer su{" "}
-                </span>
-                <span className="block text-primario xl:inline">negocio</span>
+                {/* </span> */}
+                <span className=" text-primario">negocio</span>
               </h2>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Somos una empresa dedicada al manejo integral de Recursos
