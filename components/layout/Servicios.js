@@ -12,7 +12,7 @@ const Servicios = () => {
                 </div>
                 <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
                     <h1 className="sm:w-3/5 text-gray-900 font-bold title-font sm:text-3xl mb-2 sm:mb-0">Nuestros Servicios</h1>
-                    <p className="sm:w-2/5 leading-relaxed text-base sm:pl-10 pl-0 text-right">Nuestro objetivo es brindar a nuestros clientes, servicios que fortalezcan la relación con sus colaboradores</p>
+                    <p className="sm:w-2/5 leading-relaxed text-base sm:pl-10 pl-0 xl:text-right">Nuestro objetivo es brindar a nuestros clientes, servicios que fortalezcan la relación con sus colaboradores</p>
                 </div>
                 </div>
                 <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
