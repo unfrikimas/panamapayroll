@@ -73,6 +73,7 @@ const HeroDos = () => {
                     type="button"
                     className="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                     onClick={() => setMenuDropDown(!menuDropDown)}
+                    onBlur={() => setMenuDropDown(false)}
                   >
                     <span>Servicios</span>
                     {/* Item active: "text-gray-600", Item inactive: "text-gray-400" */}
@@ -289,7 +290,7 @@ const HeroDos = () => {
           <div 
             ref={refm}
             className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-            <div className="rounded-lg shadow-lg bg-white ring-1 ring-primario ring-opacity-8 overflow-hidden">
+            <div className="rounded-lg shadow-lg bg-white ring-1 ring-primario ring-opacity-6 overflow-hidden">
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
                   <img
@@ -378,13 +379,15 @@ const HeroDos = () => {
 
                 </div>
                 <div role="none">
-                  <a
-                    href="#"
-                    className="block w-full px-5 py-3 text-center font-medium text-primario bg-gray-50 hover:bg-gray-100"
-                    role="menuitem"
-                  >
-                    Contactar
-                  </a>
+                  <Link href="/contacto">
+                    <a
+                      href="#"
+                      className="block w-full px-5 py-3 text-center font-medium text-primario bg-gray-50 hover:bg-gray-100"
+                      role="menuitem"
+                    >
+                      Contactar
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -395,7 +398,7 @@ const HeroDos = () => {
           <main className="mt-10 mx-auto max-w-7xl px-4 mb-4 sm:pb-0 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-gray-500 font-medium text-lg lg:text-xl pb-2 lg:pb-4">Panamá Payroll Management</h1>
-              <h2 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+              <h2 className="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block sm:inline">
                   Soluciones que hacen crecer su{" "}
                 </span>
@@ -409,12 +412,13 @@ const HeroDos = () => {
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primario hover:bg-primario-hover md:py-4 md:text-lg md:px-10"
-                  >
-                    Contactar
-                  </a>
+                  <Link href="/contacto">
+                    <a
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primario hover:bg-primario-hover md:py-4 md:text-lg md:px-10"
+                    >
+                      Contactar
+                    </a>
+                  </Link>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <Link href="/#servicios">
@@ -437,7 +441,6 @@ const HeroDos = () => {
           alt="Panama Payroll Management"
         />
       </div>
-      <div name="servicios"></div>
     </div>
   );
 };
