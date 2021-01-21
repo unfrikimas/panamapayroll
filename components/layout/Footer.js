@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="text-gray-600 body-font pt-16">
+    <footer class="text-gray-600 body-font">
 
-      <div class="bg-gray-100 py-8">
+      <div class="bg-gray-50 py-8">
         <div class="w-full flex lg:max-w-7xl mx-auto px-4 sm:px-6  text-gray-800 flex-wrap md:justify-between">
           <div class="p-5 lg:p-0">
             <img
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="bg-gray-200 pt-5 pb-8 lg:py-2">
+      <div class="bg-gray-100 pt-5 pb-8 lg:py-2">
         <div class="max-w-7xl px-4 py-4 mx-auto flex items-center sm:flex-row flex-col">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <span class="ml-2 text-normal mt-2">Panamá Payroll Management</span>

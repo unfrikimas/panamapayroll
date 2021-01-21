@@ -9,6 +9,7 @@ import Servicios from '../components/layout/Servicios';
 import SeccionExperiencia from '../components/layout/SeccionExperiencia';
 import Team from '../components/layout/Team';
 import Alianzas from '../components/layout/Alianzas';
+import Cta from '../components/layout/Cta';
 import Footer from '../components/layout/Footer';
 
 export default function Home() {
@@ -26,8 +27,10 @@ export default function Home() {
       <div className="w-full bg-gray-100">
         <SeccionExperiencia />
       </div>
-      <Team />
       <Alianzas />
+      <div className="border-t border-gray-100 pt-8">
+        <Cta />
+      </div>
       <div id="footer">
         <Footer />
       </div>

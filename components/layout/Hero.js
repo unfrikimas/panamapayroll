@@ -111,8 +111,8 @@ const Hero = () => {
                         <div class="rounded-lg shadow-lg">
                           <div class="rounded-lg shadow-xs overflow-hidden">
                             <div class="z-20 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                              <Link href="/planilla">
                               <a
-                                href="#"
                                 class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150"
                               >
                                 <svg
@@ -138,8 +138,9 @@ const Hero = () => {
                                   </p>
                                 </div>
                               </a>
+                              </Link>
+                              <Link href="/latintopjobs">
                               <a
-                                href="#"
                                 class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150"
                               >
                                 <svg
@@ -165,8 +166,9 @@ const Hero = () => {
                                   </p>
                                 </div>
                               </a>
+                              </Link>
+                              <Link href="/serviciosfinancieros">
                               <a
-                                href="#"
                                 class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150"
                               >
                                 <svg
@@ -192,6 +194,7 @@ const Hero = () => {
                                   </p>
                                 </div>
                               </a>
+                              </Link>
                             </div>
                             <div class="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                               {/* <div class="flow-root">
@@ -222,8 +225,8 @@ const Hero = () => {
                                 </a>
                               </div> */}
                               <div class="flow-root">
+                                <Link href="/contacto">
                                 <a
-                                  href="#"
                                   class="-m-3 p-3 flex items-center space-x-3 rounded-md text-base leading-6 font-medium text-gray-900 hover:bg-gray-100 transition ease-in-out duration-150"
                                 >
                                   <svg
@@ -241,6 +244,7 @@ const Hero = () => {
                                   </svg>
                                   <span>Contactar</span>
                                 </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -249,21 +253,20 @@ const Hero = () => {
                     )}
                   </Transition>
                   {/* </div> */}
-
+                  <Link href="/nosotros">
                   <a
-                    href="#"
                     className="font-medium text-gray-500 hover:text-gray-900"
                   >
                     Nosotros
                   </a>
-
+                  </Link>
+                  <Link href="/contacto">
                   <a
-                    href="#"
                     className="font-medium text-gray-500 hover:text-gray-900"
                   >
                     Contacto
                   </a>
-
+                  </Link>
                 </div>
               </div>
             </nav>
@@ -348,20 +351,23 @@ const Hero = () => {
                       </a>
                     </div>
                     <div className="ml-4">
+                      <Link href="/planilla">
                       <a
-                        href="#"
                         className="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
                         role="menuitem"
                       >
                         Administración de Planilla
                       </a>
+                      </Link>
+                      <Link href="/latintopjobs">
                       <a
-                        href="#"
                         className="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
                         role="menuitem"
                       >
                         Latin Top Jobs
                       </a>
+                      </Link>
+                      <Link href="/serviciosfinancieros">
                       <a
                         href="#"
                         className="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
@@ -369,18 +375,17 @@ const Hero = () => {
                       >
                         Servicios Financieros
                       </a>
-
+                      </Link>
                     </div>
                   </div>
-
+                  <Link href="/nosotros">
                   <a
-                    href="#"
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
                     role="menuitem"
                   >
                     Nosotros
                   </a>
-
+                  </Link>
                 </div>
                 <div role="none">
                   <Link href="/contacto">

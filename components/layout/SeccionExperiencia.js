@@ -4,7 +4,7 @@ import Image from 'next/image';
 const SeccionExperiencia = () => {
   return (
     <section class="text-gray-600 body-font max-w-7xl mx-auto">
-      <div class="container px-5 py-28 mx-auto flex flex-wrap">
+      <div class="px-5 py-28 mx-auto flex flex-wrap">
         <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <img
             alt="feature"

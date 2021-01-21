@@ -2,9 +2,23 @@ import React from "react";
 import IconOficina from "../../components/icons/contacto/oficina";
 import IconAtencion from "../../components/icons/contacto/atencion";
 import IconEmail from "../../components/icons/contacto/email";
+import emailjs from 'emailjs-com';
 
 const FormularioContacto = () => {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('gmail mochilaimagen', 'template_7gffn3h', e.target, 'user_e74h3czWTnvUXYmi18RgJ')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
+
   return (
+    <>
     <div className="z-0 max-w-7xl mx-auto px-5 py-4">
       <div className="flex flex-col">
         <div className="h-1 bg-gray-200 rounded overflow-hidden">
@@ -26,13 +40,6 @@ const FormularioContacto = () => {
           <p class="mt-4 text-sm leading-7 tracking-normal font-regular uppercase mb-4">
             Siempre estamos listos
           </p>
-
-          <div class="flex items-center mt-6">
-            <IconOficina width={45} height={45} fill={"#fff"} />
-            <span class="text-sm pl-2">
-              Plaza Morica calle 50 y 71, San Francisco Piso 11 oficina 1103
-            </span>
-          </div>
           <div class="flex items-center mt-5">
             <IconAtencion width={30} height={30} fill={"#fff"} />
             <span class="text-sm pl-2">(507) 263-5441</span>
@@ -41,6 +48,12 @@ const FormularioContacto = () => {
           <div class="flex items-center mt-5">
             <IconEmail width={30} height={30} fill={"#fff"} />
             <span class="text-sm pl-2">info@stratego-consulting.com</span>
+          </div>
+          <div class="flex items-center mt-6">
+            <IconOficina width={45} height={45} fill={"#fff"} />
+            <span class="text-sm pl-2">
+              Plaza Morica calle 50 y 71, San Francisco Piso 11 oficina 1103
+            </span>
           </div>
           <div className="w-full mt-12 rounded-lg overflow-hidden">
             <iframe
@@ -54,7 +67,10 @@ const FormularioContacto = () => {
             ></iframe>
           </div>
         </div>
-        <form class="md:col-span-8 py-10 px-4 lg:p-10">
+        <form 
+            class="md:col-span-8 py-10 px-4 lg:p-10"
+            onSubmit={sendEmail}
+        >
           <div class="flex flex-wrap -mx-3">
             <div class="w-full md:w-1/2 px-3">
               <label
@@ -65,7 +81,7 @@ const FormularioContacto = () => {
               </label>
               <input
                 class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
-                id="grid-first-name"
+                name="nombre"
                 type="text"
                 placeholder=""
               />
@@ -82,7 +98,7 @@ const FormularioContacto = () => {
               </label>
               <input
                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                id="grid-email"
+                name="email"
                 type="email"
                 placeholder="********@*****.**"
               />
@@ -98,7 +114,7 @@ const FormularioContacto = () => {
               </label>
               <input
                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                id="grid-last-name"
+                name="empresa"
                 type="text"
                 placeholder=""
               />
@@ -115,7 +131,7 @@ const FormularioContacto = () => {
               </label>
               <input
                 class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
-                id="grid-first-name"
+                name="cargo"
                 type="text"
                 placeholder=""
               />
@@ -132,8 +148,8 @@ const FormularioContacto = () => {
               </label>
               <input
                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                id="grid-email"
-                type="email"
+                name="telefono"
+                type="text"
                 placeholder=""
               />
             </div>
@@ -149,7 +165,7 @@ const FormularioContacto = () => {
               </label>
               <input
                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                id="grid-last-name"
+                name="asunto"
                 type="text"
                 placeholder=""
               />
@@ -167,6 +183,7 @@ const FormularioContacto = () => {
               <textarea
                 rows="10"
                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                name="mensaje"
               ></textarea>
             </div>
             <div class="flex justify-between w-full pt-6">
@@ -187,6 +204,20 @@ const FormularioContacto = () => {
         </form>
       </div>
     </div>
+    <div className="px-5">
+    <div className="w-full sm:hidden mt-12 rounded-lg overflow-hidden">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15763.108019030124!2d-79.5083557!3d8.992656!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8547c43209415b69!2sP.H.%20Plaza%20Morica!5e0!3m2!1ses-419!2ses!4v1611156265201!5m2!1ses-419!2ses"
+            width="100%"
+            height="420"
+            frameborder="0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+        ></iframe>
+    </div>
+    </div>
+    </>
   );
 };
 
