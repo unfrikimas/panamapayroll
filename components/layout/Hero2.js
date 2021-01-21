@@ -29,7 +29,7 @@ const HeroDos = () => {
               <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                 <div className="flex items-center justify-between w-full md:w-auto">
                   <Link href="/">
-                    <a href="#">
+                    <a>
                       <span className="sr-only">Workflow</span>
                       <img
                         className="h-16 w-auto sm:h-24"
@@ -400,7 +400,7 @@ const HeroDos = () => {
 
           <main className="mt-10 mx-auto max-w-7xl px-4 mb-4 sm:pb-0 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-primario font-medium text-lg lg:text-2xl pb-2 lg:pb-4">Panamá Payroll Management</h1>
+              <h1 className="text-primario font-medium text-lg lg:text-2xl pb-2 lg:pb-4 tracking-tight">Panamá Payroll Management</h1>
               <h2 className="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl pr-3 sm:pr-0">
                 {/* <span className="block sm:inline"> */}
                   Soluciones que hacen crecer su{" "}

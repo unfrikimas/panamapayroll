@@ -31,7 +31,7 @@ const BarraNavegacion = () => {
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <Link href="/">
-                      <a href="#">
+                      <a>
                         <span className="sr-only">Workflow</span>
                         <img
                           className="h-16 w-auto sm:h-24"

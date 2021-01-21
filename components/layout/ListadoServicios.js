@@ -10,23 +10,12 @@ const ListadoServicios = () => {
             <div className="w-24 h-full bg-primario"></div>
           </div>
           <div className="flex flex-wrap sm:flex-row flex-col py-6 lg:mb-6">
-            <h2 className="sm:w-3/5 text-gray-700 font-bold title-font text-xl lg:text-2xl sm:text-3xl mb-2 sm:mb-0">
+            <h2 className="sm:w-3/5 text-gray-700 font-bold title-font text-xl lg:text-2xl sm:text-3xl lg:mb-2 sm:mb-0">
               Qué ofrecemos
             </h2>
-            {/* <p className="sm:w-2/5 leading-relaxed text-base sm:pl-10 pl-0 xl:text-right">
-                Servicio Personalizado para su gestión de Planillas. Podemos actuar como patrono o simplemente como administrador de la nómina, dependiendo de sus necesidades.
-            </p> */}
           </div>
         </div>
       <div class="px-5 lg:pb-12 mx-auto">
-        {/* <div class="lg:text-center mb-8">
-          <h1 class="sm:text-3xl text-xl lg:text-2xl font-bold lg:text-center title-font text-gray-700 mb-4">
-            Administración de Planilla
-          </h1>
-          <p class="text-base leading-relaxed xl:w-2/4 lg:w-1/2 mx-auto">
-            Servicio Personalizado para su gestión de Planillas. Podemos actuar como patrono o simplemente como administrador de la nómina, dependiendo de sus necesidades.
-          </p>
-        </div> */}
         <div class="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2">
           <div class="p-2 sm:w-1/2 w-full">
             <div class="bg-gray-100 rounded flex p-4 h-full items-center">
@@ -43,7 +32,7 @@ const ListadoServicios = () => {
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
               <span class="title-font font-medium">
-                Procesamiento de planillas o nóminas regulares, extraordinarias, (bonos, aguinaldos, y otros), XIII mes, vacaciones y liquidaciones.
+                Procesamiento de planilla o nóminas regulares, extraordinarias, (bonos, aguinaldos, y otros), XIII mes, vacaciones y liquidaciones.
               </span>
             </div>
           </div>

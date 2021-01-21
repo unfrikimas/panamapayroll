@@ -1,61 +1,62 @@
 import React from "react";
+import Link from 'next/link';
 
 const Footer = () => {
   return (
     <footer class="text-gray-600 body-font">
-
       <div class="bg-gray-50 py-8">
         <div class="w-full flex lg:max-w-7xl mx-auto px-4 sm:px-6  text-gray-800 flex-wrap md:justify-between">
-          <div class="p-5 lg:p-0">
-            <img
-              className="h-12 w-auto sm:h-12"
-              src="/images/PPMlogo300.png"
-            />
+          <div class="w-full lg:w-1/5 p-5 lg:p-0">
+            <img className="h-12 w-auto sm:h-12" src="/images/PPMlogo300.png" />
           </div>
           <div class="p-5">
             <div class="text-xs uppercase text-gray-500 font-medium">
               Servicios
             </div>
-            <a class="my-3 block" href="/#">
-              Administración de Planilla <span class="text-teal-600 text-xs p-1"></span>
+            <Link href="/planilla">
+            <a class="my-3 block">
+              Administración de Planilla{" "}
+              <span class="text-teal-600 text-xs p-1"></span>
             </a>
+            </Link>
+            <Link href="/latintopjobs">
             <a class="my-3 block" href="/#">
               Latin Top Jobs <span class="text-teal-600 text-xs p-1"></span>
             </a>
+            </Link>
+            <Link href="/serviciosfinancieros">
             <a class="my-3 block" href="/#">
-              Servicios Financieros <span class="text-teal-600 text-xs p-1"></span>
+              Servicios Financieros{" "}
+              <span class="text-teal-600 text-xs p-1"></span>
             </a>
+            </Link>
           </div>
           <div class="p-5">
             <div class="text-xs uppercase text-gray-500 font-medium">
-              Soporte
+              Legal
             </div>
-            <a class="my-3 block" href="/#">
-              Help Center <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block">
+              Política de Cookies <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">
-              Privacy Policy <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block">
+              Política de Privacidad <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">
-              Conditions <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block">
+              Aviso Legal <span class="text-teal-600 text-xs p-1"></span>
             </a>
           </div>
           <div class="p-5">
             <div class="text-xs uppercase text-gray-500 font-medium">
               Contáctenos
             </div>
-            <a class="my-3 block" href="/#">
-              Plaza Morica calle 50 y 71, San Francisco Piso 11 oficina 1103{" "}
-              <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block">
+              Plaza Morica calle 50 y 71, San Francisco Piso 11 oficina 1103
             </a>
-            <a class="my-3 block" href="/#">
-              (507) 263-5441
-              Lunes a Viernes: 8:00am - 5:00pm{" "}
-              <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block">
+              (507) 263-5441 Lunes a Viernes: 8:00am - 5:00pm
             </a>
-            <a class="my-3 block" href="/#">
-              info@stratego-consulting.com{" "}
-              <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block">
+              info@stratego-consulting.com
             </a>
           </div>
         </div>
@@ -66,9 +67,7 @@ const Footer = () => {
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <span class="ml-2 text-normal mt-2">Panamá Payroll Management</span>
           </a>
-          <p class="text-sm text-gray-500 sm:ml-2 sm:mt-2 mt-4">
-            © 2021
-          </p>
+          <p class="text-sm text-gray-500 sm:ml-2 sm:mt-2 mt-4">© 2021</p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a class="text-gray-500">
               <svg

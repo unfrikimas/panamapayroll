@@ -19,7 +19,7 @@ const FormularioContacto = () => {
 
   return (
     <>
-    <div className="z-0 max-w-7xl mx-auto px-5 py-4">
+    <div className="z-0 max-w-7xl mx-auto px-5 pt-12 pb-4">
       <div className="flex flex-col">
         <div className="h-1 bg-gray-200 rounded overflow-hidden">
           <div className="w-24 h-full bg-primario"></div>
@@ -204,18 +204,18 @@ const FormularioContacto = () => {
         </form>
       </div>
     </div>
-    <div className="px-5">
-    <div className="w-full sm:hidden mt-12 rounded-lg overflow-hidden">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15763.108019030124!2d-79.5083557!3d8.992656!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8547c43209415b69!2sP.H.%20Plaza%20Morica!5e0!3m2!1ses-419!2ses!4v1611156265201!5m2!1ses-419!2ses"
-            width="100%"
-            height="420"
-            frameborder="0"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-        ></iframe>
-    </div>
+    <div className="px-5 pb-16">
+      <div className="w-full sm:hidden mt-12 rounded-lg overflow-hidden">
+          <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15763.108019030124!2d-79.5083557!3d8.992656!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8547c43209415b69!2sP.H.%20Plaza%20Morica!5e0!3m2!1ses-419!2ses!4v1611156265201!5m2!1ses-419!2ses"
+              width="100%"
+              height="420"
+              frameborder="0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+          ></iframe>
+      </div>
     </div>
     </>
   );
