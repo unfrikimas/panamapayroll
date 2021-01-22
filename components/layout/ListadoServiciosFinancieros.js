@@ -4,8 +4,8 @@ import IconInforme from '../icons/servicios/informes';
 const ListadoServiciosFinancieros = () => {
   return (
     <>
-    <section class="max-w-7xl mx-auto text-gray-600 body-font">
-        <div className="flex flex-col px-5">
+    <section className="max-w-7xl mx-auto text-gray-600 body-font">
+        <div className="lg:w-4/5 mx-auto flex flex-col px-5">
           <div className="h-1 bg-gray-200 rounded overflow-hidden">
             <div className="w-24 h-full bg-primario"></div>
           </div>
@@ -18,168 +18,168 @@ const ListadoServiciosFinancieros = () => {
             </p> */}
           </div>
         </div>
-      <div class="px-4 pb-6 lg:pb-12 mx-auto">
-        <div class="flex flex-wrap sm:mx-auto sm:mb-2">
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+      <div class="lg:w-4/5 px-5 lg:pb-12 mx-auto">
+        <div className="flex flex-wrap sm:mx-auto sm:mb-2">
+          <div className="p-2 sm:w-1/2 w-full">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                class="text-primario w-6 h-6 flex-shrink-0 mr-4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
+                className="text-primario w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span class="title-font font-medium">
+              <span className="title-font font-medium">
                 Elaboración de planes de negocio para obtener las diferentes licencias de valores, fiduciarias y bancarias.
               </span>
             </div>
           </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <div className="p-2 sm:w-1/2 w-full">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                class="text-primario w-6 h-6 flex-shrink-0 mr-4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
+                className="text-primario w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span class="title-font font-medium">
+              <span className="title-font font-medium">
                 Elaboración de los manuales requeridos por las autoridades bancarias y de valores para obtener las diferentes licencias de valores, fiduciarias y bancarias.
               </span>
             </div>
           </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <div className="p-2 sm:w-1/2 w-full">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                class="text-primario w-6 h-6 flex-shrink-0 mr-4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
+                className="text-primario w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
               <span 
-                class="title-font font-medium">
+                className="title-font font-medium">
                     Inscripción de emisiones y fondos extranjeros en el mercado local.
                 </span>
             </div>
           </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <div className="p-2 sm:w-1/2 w-full">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                class="text-primario w-6 h-6 flex-shrink-0 mr-4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
+                className="text-primario w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span class="title-font font-medium">
+              <span className="title-font font-medium">
                 Ayudar a nuestros clientes en la consecución de financiamiento bancario , privados o a través de emisiones de valores.
               </span>
             </div>
           </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <div className="p-2 sm:w-1/2 w-full">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                class="text-primario w-6 h-6 flex-shrink-0 mr-4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
+                className="text-primario w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span class="title-font font-medium">Valuaciones de Empresas.</span>
+              <span className="title-font font-medium">Valuaciones de Empresas.</span>
             </div>
           </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <div className="p-2 sm:w-1/2 w-full">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                class="text-primario w-6 h-6 flex-shrink-0 mr-4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
+                className="text-primario w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span class="title-font font-medium">Auditorías de Proceso.</span>
+              <span className="title-font font-medium">Auditorías de Proceso.</span>
             </div>
           </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <div className="p-2 sm:w-1/2 w-full">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                class="text-primario w-6 h-6 flex-shrink-0 mr-4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
+                className="text-primario w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span class="title-font font-medium">Elaboración de planes de negocio.</span>
+              <span className="title-font font-medium">Elaboración de planes de negocio.</span>
             </div>
           </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <div className="p-2 sm:w-1/2 w-full">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                class="text-primario w-6 h-6 flex-shrink-0 mr-4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
+                className="text-primario w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span class="title-font font-medium">Restructuración de Pasivos.</span>
+              <span className="title-font font-medium">Restructuración de Pasivos.</span>
             </div>
           </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <div className="p-2 sm:w-1/2 w-full">
+            <div className="bg-gray-100 rounded flex p-4 h-full items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                class="text-primario w-6 h-6 flex-shrink-0 mr-4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
+                className="text-primario w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
-              <span class="title-font font-medium">Fusiones y Adquisiciones.</span>
+              <span className="title-font font-medium">Fusiones y Adquisiciones.</span>
             </div>
           </div>
         </div>
