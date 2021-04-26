@@ -22,13 +22,15 @@ const Servicios = () => {
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
           <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
             <div className="rounded-lg h-64 overflow-hidden">
-              <img
-                alt="content"
-                className="object-cover object-center h-full w-full"
-                src="/images/home/administracion-planilla-panama-payroll-management-1.jpg"
-                // width={899}
-                // height={600}
-              />
+              <Link href="/planilla">
+                <a>
+                  <img
+                    alt="content"
+                    className="object-cover object-center h-full w-full"
+                    src="/images/home/administracion-planilla-panama-payroll-management-1.jpg"
+                  />
+                </a>
+              </Link>
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
               Administración de Planilla
@@ -57,13 +59,15 @@ const Servicios = () => {
           </div>
           <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
             <div className="rounded-lg h-64 overflow-hidden">
-              <img
-                alt="content"
-                className="object-cover object-center h-full w-full"
-                src="/images/home/recursos-humanos-panama-payroll-management-1.jpg"
-                // width={900}
-                // height={600}
-              />
+              <Link href="/latintopjobs">
+                <a>
+                  <img
+                    alt="content"
+                    className="object-cover object-center h-full w-full"
+                    src="/images/home/recursos-humanos-panama-payroll-management-1.jpg"
+                  />
+                </a>
+              </Link>
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
               Latin Top Jobs
@@ -93,13 +97,15 @@ const Servicios = () => {
           </div>
           <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
             <div className="rounded-lg h-64 overflow-hidden">
-              <img
-                alt="content"
-                className="object-cover object-center h-full w-full"
-                src="/images/home/servicios-financieros-panama-payroll-management-1.jpg"
-                // width={899}
-                // height={600}
-              />
+              <Link href="/serviciosfinancieros">
+                <a>
+                  <img
+                    alt="content"
+                    className="object-cover object-center h-full w-full"
+                    src="/images/home/servicios-financieros-panama-payroll-management-1.jpg"
+                  />
+                </a>
+              </Link>
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
               Servicios Financieros

@@ -8,41 +8,41 @@ const Footer = () => {
   return (
     <footer className="text-gray-600 body-font">
       <div className="bg-gray-50 py-8">
-        <div className="w-full flex lg:max-w-7xl mx-auto px-4 sm:px-6  text-gray-800 flex-wrap md:justify-between">
+        <div className="w-full flex lg:max-w-7xl mx-auto px-4 sm:px-6 text-gray-800 flex-wrap md:justify-between">
           <div className="w-full lg:w-1/5 p-5 lg:p-0">
             <img className="h-12 w-auto sm:h-12" src="/images/PPMlogo300.png" />
           </div>
-          <div className="p-5">
+          <div className="p-5 flex flex-col">
             <div className="text-xs uppercase text-gray-500 font-medium">
               Servicios
             </div>
             <Link href="/planilla">
-            <a className="my-3 block">
+            <a className="my-2 lg:my-3 text-gray-600">
               Administración de Planilla
             </a>
             </Link>
             <Link href="/latintopjobs">
-            <a className="my-3 block">
+            <a className="lg:my-0 text-gray-600">
               Latin Top Jobs
             </a>
             </Link>
             <Link href="/serviciosfinancieros">
-            <a className="my-3 block">
+            <a className="my-2 text-gray-600 lg:my-3">
               Servicios Financieros
             </a>
             </Link>
           </div>
-          <div className="p-5">
+          <div className="p-5 flex flex-col">
             <div className="text-xs uppercase text-gray-500 font-medium">
               Legal
             </div>
-            <a className="my-3 block">
+            <a className="my-2 lg:mt-3 lg:mb-0 text-gray-600">
               Política de Cookies <span className="text-teal-600 text-xs p-1"></span>
             </a>
-            <a className="my-3 block">
+            <a className="lg:my-3 text-gray-600">
               Política de Privacidad <span className="text-teal-600 text-xs p-1"></span>
             </a>
-            <a className="my-3 block">
+            <a className="my-2 lg:my-0 text-gray-600">
               Aviso Legal <span className="text-teal-600 text-xs p-1"></span>
             </a>
           </div>
@@ -52,26 +52,26 @@ const Footer = () => {
             </div>
             <div className="flex items-center pt-3">
               <div className="flex-shrink-0">
-                <IconOficina width={20} height={20} fill={"#125e90"} />             
+                <IconOficina width={20} height={20} fill={"#6b7280"} />             
               </div>
-              <p className="pl-1">
+              <p className="pl-3 text-gray-600">
                 Plaza Morica calle 50 y 71, San Francisco Piso 11 oficina 1103
               </p>
             </div>
             <div className="flex flex-shrink-0 items-center pt-3">
               <div className="flex-shrink-0">
-                <IconAtencion width={20} height={20} fill={"#125e90"} />  
+                <IconAtencion width={20} height={20} fill={"#6b7280"} />  
               </div>
-              <p className="pl-1 flex flex-col sm:flex-row">
-                <span className="pr-1">(507) 263-5441</span>
+              <p className="pl-3 flex flex-col sm:flex-row">
+                <span className="pr-1 text-gray-600">(507) 263-5441</span>
                 <span>Lunes a Viernes: 8:00am - 5:00pm</span>
               </p>
             </div>
             <div className="flex flex-shrink-0 items-center pt-3">
               <div className="flex-shrink-0">
-                <IconEmail width={20} height={20} fill={"#125e90"} />  
+                <IconEmail width={20} height={20} fill={"#6b7280"} />  
               </div>
-              <p className="pl-1">
+              <p className="pl-3 text-gray-600">
                 info@stratego-consulting.com
               </p>
             </div>
@@ -81,8 +81,8 @@ const Footer = () => {
 
       <div className="bg-gray-100 pt-5 pb-8 lg:py-2">
         <div className="max-w-7xl px-4 py-4 mx-auto flex items-center sm:flex-row flex-col">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <span className="ml-2 text-normal mt-2">Panamá Payroll Management</span>
+          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-700">
+            <span className="ml-2 text-lg mt-2">Panamá Payroll Management</span>
           </a>
           <p className="text-sm text-gray-500 sm:ml-2 sm:mt-2 mt-4">© 2021</p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

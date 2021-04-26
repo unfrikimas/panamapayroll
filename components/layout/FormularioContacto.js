@@ -239,7 +239,7 @@ const FormularioContacto = () => {
                 className="w-full flex items-center justify-center px-8 py-3 border border-red-500 text-base font-medium rounded-md text-red-500 cursor-not-allowed md:py-4 md:text-lg md:px-10"
                 disabled
               >
-                Enviar (faltan datos)
+                Enviar mensaje (faltan datos)
               </button>
             </div>
             : 

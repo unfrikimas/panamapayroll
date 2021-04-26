@@ -37,6 +37,8 @@ const HeroDos = () => {
                       />
                     </a>
                   </Link>
+
+                  
                   <div className="-mr-2 flex items-center md:hidden">
                     <button
                       type="button"
@@ -440,7 +442,7 @@ const HeroDos = () => {
       <div className="lg:absolute lg:inset-y-0 px-5 lg:px-0 rounded-lg overflow-hidden lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full rounded-lg object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://res.cloudinary.com/petportrait/image/upload/v1610820803/clientes%20paginas%20web/PPM/panama-payroll-management-home-1_ygkh5d.jpg"
+          src="/images/home/panama-payroll-management-home-1.jpg"
           alt="Panama Payroll Management"
         />
       </div>

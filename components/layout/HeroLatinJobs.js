@@ -10,7 +10,7 @@ const HeroLatinTopJobs = () => {
             className="object-cover object-center rounded-lg"
             alt="servicios financieros"
             src="/images/home/recursos-humanos-panama-payroll-management-1.jpg"
-          />
+            />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
           <h1 className="text-left title-font sm:text-4xl text-2xl mb-4 font-bold text-gray-900">

@@ -2,6 +2,7 @@ import React from "react";
 
 const Alianzas = () => {
   return (
+    <>
     <section className="text-gray-600 body-font max-w-7xl mx-auto pt-24">
       <div className="px-5 pb-24 mx-auto">
         <div className="flex flex-col lg:text-center w-full mb-12">
@@ -12,38 +13,39 @@ const Alianzas = () => {
             Contamos con operaciones y presencia regional en todos los países de Centro América
           </p>
         </div>
-        <div className="flex flex-wrap -m-4 text-center">
+        <div className="flex flex-wrap -m-4 text-center items-center justify-items-center mx-auto">
           <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-              <h2 className="title-font font-medium text-3xl text-gray-900">
-                2.7K
-              </h2>
-              <p className="leading-relaxed">Downloads</p>
+            <div className="px-4 py-6">
+              <img className="mx-auto w-2/3" src="/images/home/alianza1.jpg"/>
             </div>
           </div>
           <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-              <h2 className="title-font font-medium text-3xl text-gray-900">
-                1.3K
-              </h2>
-              <p className="leading-relaxed">Users</p>
+            <div className="px-4 py-6">
+              <img className="mx-auto w-2/3" src="/images/home/alianza2.jpg"/>
             </div>
           </div>
           <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-              <h2 className="title-font font-medium text-3xl text-gray-900">74</h2>
-              <p className="leading-relaxed">Files</p>
+            <div className="px-4 py-6">
+              <img className="mx-auto w-2/3" src="/images/home/alianza3.jpg"/>
             </div>
           </div>
           <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-              <h2 className="title-font font-medium text-3xl text-gray-900">46</h2>
-              <p className="leading-relaxed">Places</p>
+            <div className="px-4 py-6">
+              <img className="mx-auto w-2/3" src="/images/home/alianza4.jpg"/>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <style jsx>
+      {`
+        alianza: {
+          width: 100%;
+          height: 144px;
+        }
+      `}
+    </style>
+    </>
   );
 };
 

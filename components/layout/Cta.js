@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Cta = () => {
     return (  
 
-        <div className="max-w-7xl pt-8 pb-12 mx-auto">
+        <div className="max-w-7xl pb-16 mx-auto">
             <div className="lg:w-4/5 mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex justify-center lg:items-center lg:justify-between text-center">
                 <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
                 ¿Listo para hacer crecer su{" "}
