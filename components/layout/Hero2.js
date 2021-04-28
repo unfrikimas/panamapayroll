@@ -402,12 +402,12 @@ const HeroDos = () => {
 
           <main className="mt-10 mx-auto max-w-7xl px-4 mb-4 sm:pb-0 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-primario font-medium text-lg lg:text-2xl pb-2 lg:pb-4 tracking-tight">Panamá Payroll Management</h1>
-              <h2 className="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl pr-3 sm:pr-0">
+              <h1 className="text-primario font-medium text-xl lg:text-2xl pb-2 lg:pb-4 tracking-tight">Panamá Payroll Management</h1>
+              <h2 className="text-6xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl pr-3 sm:pr-0">
                 {/* <span className="block sm:inline"> */}
                   Soluciones que hacen crecer su{" "}
                 {/* </span> */}
-                <span className=" text-primario">negocio</span>
+                <span className=" text-primario tracking-wide">negocio</span>
               </h2>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Somos una empresa dedicada al manejo integral de Recursos
@@ -419,7 +419,7 @@ const HeroDos = () => {
                 <div className="rounded-md shadow">
                   <Link href="/contacto">
                     <a
-                      className="w-full flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-md text-white bg-primario hover:bg-primario-hover md:py-4 md:text-lg md:px-10 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      className="w-full flex items-center justify-center px-8 py-4 border border-transparent text-xl font-medium rounded-md text-white bg-primario hover:bg-primario-hover md:py-4 md:text-lg md:px-10 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out tracking-wide"
                     >
                       Contactar
                     </a>
@@ -428,7 +428,7 @@ const HeroDos = () => {
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <Link href="/#servicios">
                   <a
-                    className="w-full flex items-center justify-center px-8 py-4 border border-primario text-base font-medium rounded-md text-primario hover:text-primario-hover md:py-4 md:text-lg md:px-10 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                    className="w-full flex items-center justify-center px-8 py-4 border border-primario text-xl font-medium rounded-md text-primario hover:text-primario-hover md:py-4 md:text-lg md:px-10 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out tracking-wide"
                   >
                     Servicios
                   </a>

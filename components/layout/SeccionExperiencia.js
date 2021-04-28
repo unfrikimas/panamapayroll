@@ -4,7 +4,7 @@ import Image from "next/image";
 const SeccionExperiencia = () => {
   return (
     <section className="text-gray-600 body-font max-w-7xl mx-auto">
-      <div className="px-5 py-28 mx-auto flex flex-wrap">
+      <div className="px-5 py-24 md:py-28 mx-auto flex flex-wrap">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <img
             alt="feature"
@@ -15,7 +15,7 @@ const SeccionExperiencia = () => {
           />
         </div>
         <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left">
-          <div className="flex flex-col mb-10 lg:items-start">
+          <div className="flex flex-col mb-10 mt-8 md:mt-0 lg:items-start">
             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primario-hover mb-5">
               <svg
                 fill="currentColor"
@@ -41,7 +41,7 @@ const SeccionExperiencia = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col mb-10 lg:items-start">
+          <div className="flex flex-col mt-8 md:mt-0 mb-10 lg:items-start">
             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primario-hover mb-5">
               <svg
                 fill="currentColor"
@@ -67,7 +67,7 @@ const SeccionExperiencia = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col mb-10 lg:items-start">
+          <div className="flex flex-col mt-8 md:mt-0 mb-10 lg:items-start">
             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primario-hover mb-5">
               <svg
                 fill="currentColor"
