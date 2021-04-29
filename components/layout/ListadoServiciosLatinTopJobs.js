@@ -71,7 +71,7 @@ const ListadoServiciosLatinTopJobs = () => {
               </svg>
               <span 
                 className="title-font font-medium">
-                    Aplicación de pruebas sicológicas.
+                    Aplicación de pruebas psicológicas.
                 </span>
             </div>
           </div>
@@ -90,7 +90,7 @@ const ListadoServiciosLatinTopJobs = () => {
                 <path d="M22 4L12 14.01l-3-3"></path>
               </svg>
               <span className="title-font font-medium">
-                Entrevistas a candidatos que aprueben las pruebas sicológicas.
+                Entrevistas a candidatos que aprueben las pruebas psicológicas.
               </span>
             </div>
           </div>
@@ -193,7 +193,7 @@ const ListadoServiciosLatinTopJobs = () => {
             </div>
             <div className="flex flex-wrap sm:flex-row flex-col py-6 lg:mb-6">
                 <h2 className="sm:w-3/5 text-gray-700 font-bold title-font text-xl lg:text-2xl sm:text-3xl mb-2 sm:mb-0">
-                Aplicación de Pruebas Sicológicas
+                Aplicación de Pruebas Psicológicas
                 </h2>
             </div>
         </div>
@@ -214,7 +214,7 @@ const ListadoServiciosLatinTopJobs = () => {
                 <IconInforme width={30} height={30} fill={"#125e90"}/>
                 </span>
               <span className="title-font font-medium ml-4">
-                También le aplicamos baterías de pruebas sicológicas a colaboradores de las empresas para tener una medición independiente.
+                También le aplicamos baterías de pruebas psicológicas a colaboradores de las empresas para tener una medición independiente.
               </span>
             </div>
           </div>
