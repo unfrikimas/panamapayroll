@@ -13,25 +13,15 @@ const Alianzas = () => {
             Contamos con operaciones y presencia regional en todos los países de Centro América
           </p>
         </div>
-        <div className="flex flex-wrap -m-4 text-center items-center justify-items-center mx-auto">
-          <div className="p-4 w-1/2 md:w-1/4">
+        <div className="flex flex-wrap md:px-40 text-center items-center justify-items-center mx-auto">
+          <div className="p-4 w-1/2 md:w-1/2">
             <div className="px-4 py-6">
-              <img className="mx-auto w-full md:w-2/3" src="/images/home/alianza1.jpg"/>
+              <img className="mx-auto w-full md:w-3/5" src="/images/home/alianza1.jpg"/>
             </div>
           </div>
-          <div className="p-4 w-1/2 md:w-1/4">
+          <div className="p-4 w-1/2 md:w-1/2">
             <div className="px-4 py-6">
-              <img className="mx-auto w-full md:w-2/3" src="/images/home/alianza2.jpg"/>
-            </div>
-          </div>
-          <div className="p-4 w-1/2 md:w-1/4">
-            <div className="px-4 py-6">
-              <img className="mx-auto w-full md:w-2/3" src="/images/home/alianza3.jpg"/>
-            </div>
-          </div>
-          <div className="p-4 w-1/2 md:w-1/4">
-            <div className="px-4 py-6">
-              <img className="mx-auto w-full md:w-2/3" src="/images/home/alianza4.jpg"/>
+              <img className="mx-auto w-full md:w-3/5" src="/images/home/alianza2.jpg"/>
             </div>
           </div>
         </div>
